@@ -4,15 +4,61 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="" />
+    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_01_UserRegistration.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_02_UserLogin.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_03_BillPaymentFunctionality.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_04_AccountCreation.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_05_MoneyTransfer.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_06_ContactInfoUpdate.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_07_LoanApplication.feature" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/LeftNav.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/ParentPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_01_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_02_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_03_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_04_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_05_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_06_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Pages/_07_DialogContent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/ExtendReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/RegressionTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Runners/SmokeTesting.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_01_RegistrationStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_02_LoginStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_03_BillPaymentStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_04_AccountCreationStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_06_ContactInfoStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/_07_LoanApplicationStep.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/dataTable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/lolo" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;furkanakalin&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/furkanakalin/Internship_Project_1.git&quot;,
+    &quot;accountId&quot;: &quot;5374334c-7ff2-4bd0-9a37-16be98737f1a&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2pnHlW5ZRLHMWtzcdvYLi1rKJ60" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -22,9 +68,16 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true"
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/furkan.akalin/IdeaProjects/Internship_Project_1/src/test/java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\furkan.akalin\IdeaProjects\Internship_Project_1\src\test\java" />
+    </key>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
