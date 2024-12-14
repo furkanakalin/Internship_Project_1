@@ -66,7 +66,6 @@
             <version>3.17.0</version>
         </dependency>
 
-
         <dependency>
             <groupId>tech.grasshopper</groupId>
             <artifactId>extentreports-cucumber7-adapter</artifactId>
@@ -74,6 +73,21 @@
             <scope>test</scope>
         </dependency>
 
-    </dependencies>
+        <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml <version>5.2.5</version> -->
+        <dependency>
+            <groupId>org.apache.poi</groupId>
+            <artifactId>poi-ooxml</artifactId>
+            <version>4.1.0</version>
+        </dependency>
 
+        <!-- JDBC - MySql için eklendi -->
+        <dependency>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.18</version>
+        </dependency>
+
+
+    </dependencies>
+ 
 </project>
