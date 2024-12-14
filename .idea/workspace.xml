@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="added necessary pages and classes">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_23_Calender.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_23_Calender.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_24_Calender.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_24_Calender.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_25_Calender.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_25_Calender.feature" afterDir="false" />
+    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="Calender feature files completed, sflj4 dependecy added.">
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/DialogContent.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Pages/TopNav.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Pages/TopNav.java" afterDir="false" />
     </list>
@@ -70,7 +65,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "yasemin",
+    "git-widget-placeholder": "#2 on yasemin",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/furkan.akalin/IdeaProjects/Internship_Project_1/src/test/java",
     "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
@@ -98,11 +93,20 @@
       <option name="project" value="LOCAL" />
       <updated>1734184965416</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Calender feature files completed, sflj4 dependecy added.">
+      <option name="closed" value="true" />
+      <created>1734201787179</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1734201787179</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added necessary pages and classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="added necessary pages and classes" />
+    <MESSAGE value="Calender feature files completed, sflj4 dependecy added." />
+    <option name="LAST_COMMIT_MESSAGE" value="Calender feature files completed, sflj4 dependecy added." />
   </component>
 </project>
