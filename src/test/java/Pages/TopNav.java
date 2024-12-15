@@ -11,7 +11,6 @@ public class TopNav extends ParentPage{
         PageFactory.initElements(GWD.getDriver(), this);
     }
 
-    // //button[@id='submit']
     @FindBy(xpath="//button[contains(@class, 'mat-mdc-button-wrapper')]")
     public WebElement calender;
 

@@ -1,19 +1,13 @@
-Feature:Calendar Feature Functionality
+Feature: Calendar Feature Functionality
 
-  Background:
-    Given navigate to Campus
-    When user enters valid username and password
-    And clicks on the login button
-    Then user should be redirected to the dashboard successfully
+  Scenario: Validate Calendar and Course Recording Features
+
     Given the user is on the Weekly Course Plan page
+    When the user clicks on the "Calendar" button
+    Then  the user should see the list of courses they are responsible for
+    When  the user selects a completed course marked as "E"
+    Then  the user verifies and clicks on the "Recording" button to access the course recording
 
-  Scenario:Calendar Feature Check
-
-    Then  The user views the courses they are responsible for
-    When  The user clicks on a completed (E) course
-    Then  The user views the Recording button and clicks on it
-      | recordingButton |
-
-    And   The user accesses the course video
-    Then  The user views the Play button in the course video and clicks on it
-    And   The user starts watching the video
+    And   the user opens the course video
+    Then  the user sees the "Play" button on the video and clicks on it
+    And   the user starts watching the video
