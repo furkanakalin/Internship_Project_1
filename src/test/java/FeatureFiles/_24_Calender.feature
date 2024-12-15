@@ -1,19 +1,24 @@
 Feature: Calendar PopUps Functionality
 
-  Background:
-    Given navigate to Campus
-    When user enters valid username and password
-    And clicks on the login button
-    Then user should be redirected to the dashboard successfully
+  Scenario: Validate Calendar Pop-Ups Functionality
     Given the user is on the Weekly Course Plan page
+    And   the user clicks on the "Calendar" button
 
-  Scenario: PopUps Functionality
+    When  the user views the following details on the Weekly Course Plan page:
+      | detail          |
+      | courseStatus   |
+      | courseName     |
+      | teacherName  |
+    And   the user clicks on a completed course marked as "E"
+    Then  the user verifies the following elements in the opened pop-up window:
+      | element        |
+      | topic          |
+      | attachments    |
+      | recentEvents  |
 
-    And  The user clicks on a completed (E) course
-    Then The user verifies the all functions of the a opened pop-up window
-      | topic        |
-      | attachments  |
-      | recentEvents |
-
-    And  The user clicks on the Course Meeting that has not yet started
-    Then The user verifies the Teacher's name, the Date and Time of the lesson, and warning message
+    When  the user clicks on a Course Meeting that has not yet started
+    Then  the user verifies the following information:
+      | information         |
+      | teacherName      |
+      | dateAndTime       |
+      | warningMessage     |
