@@ -104,14 +104,29 @@ public class DialogContent extends ParentPage {
     @FindBy(xpath = "//label[text()='Stripe ']")
     public  WebElement radiobtf;
 
-    @FindBy(xpath = "//label/span[text()='Pay in full $4,665.00 at once.']")
+    @FindBy(xpath = "//label/span[text()='Pay in full $5,000.00 at once.']")
     public  WebElement radiobts;
 
     @FindBy(xpath = "//label/span[text()='Pay']")
     public  WebElement radiobtt;
 
+    @FindBy(xpath = "//mat-radio-group/div")
+    public WebElement space;
+
     @FindBy(xpath = "//ms-currency-field/input")
     public WebElement amount;
+
+    @FindBy(xpath = "//div[@class='p-CardNumberInput']/div/input")
+    public WebElement cardNumber;
+
+    @FindBy(xpath = "//div[@class='p-Input']/input[@name='expiry']")
+    public WebElement expiry;
+
+    @FindBy(xpath = "//div[@class='p-Input']/input[@name='cvc']")
+    public WebElement cvc;
+
+    @FindBy(xpath = "//form[@id='payment-form']/button")
+    public WebElement payment;
 
     @FindBy(xpath = "//ms-button/button")
     public WebElement payButton;
