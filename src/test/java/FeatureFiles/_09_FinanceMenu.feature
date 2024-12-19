@@ -27,5 +27,13 @@ Feature: Finance Functionality
       | amount | 10 |
 
     And Click on the Element in DialogContent
-      | pay |
-      | pay |
+      | radiobtt |
+      | pay      |
+
+    And User sending the keys in Dialog
+      | cardNumber | 4242424242424242 |
+      | expiry     | 1228             |
+      | cvc        |1336              |
+
+    And Click on the Element in DialogContent
+      |payment|
