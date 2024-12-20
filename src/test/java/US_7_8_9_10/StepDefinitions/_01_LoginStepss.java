@@ -20,7 +20,7 @@ public class _01_LoginStepss {
 
     @When("Enter username and password and click login button")
     public void enterUsernameAndPasswordAndClickLoginButton() {
-        dc.mySendKeys(dc.username, "Student_3");
+        dc.mySendKeys(dc.username, "Student_8");
         dc.mySendKeys(dc.password, "S12345");
         dc.myClick(dc.loginButton);
 
