@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="buttons added">
-      <change afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_20_Homework.feature" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/US_20_21_22/Pages/DialogContent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/US_20_21_22/Pages/HeaderMenu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/US_20_21_22/Pages/ParentPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/US_20_21_22/StepDefinitions/_20_HomeworkSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="US_20">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_20_Homework.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_20_Homework.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/US_20_21_22/Pages/DialogContent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/US_20_21_22/Pages/DialogContent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/US_20_21_22/StepDefinitions/_20_HomeworkSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/US_20_21_22/StepDefinitions/_20_HomeworkSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Utilities/GWD.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,13 +126,22 @@
       <option name="project" value="LOCAL" />
       <updated>1734202255082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="US_20">
+      <option name="closed" value="true" />
+      <created>1734678149953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734678149953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added necessary pages and classes" />
     <MESSAGE value="Calender feature files completed, sflj4 dependecy added." />
     <MESSAGE value="buttons added" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons added" />
+    <MESSAGE value="US_20" />
+    <option name="LAST_COMMIT_MESSAGE" value="US_20" />
   </component>
 </project>

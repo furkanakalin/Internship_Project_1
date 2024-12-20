@@ -1,13 +1,5 @@
 Feature: Login and Assignment Features
 
-  # User Story 1: Login to the website
-  Scenario: Login to the https://test.mersys.io/ website
-    Given I navigate to "https://test.mersys.io/"
-    When I enter the username "Student_10"
-    And I enter the password "S12345"
-    And I click on the login button
-    Then I should see the dashboard page
-
   # User Story 2: Click Assignments button
   Scenario: Navigate to Assignments section
     Given I am logged into the website
