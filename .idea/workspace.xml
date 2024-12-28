@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="buttons added">
+    <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="US 23,24,25 completed.">
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/TestCampus.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/US_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_23_Calender.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_23_Calender.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_24_Calender.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_24_Calender.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/FeatureFiles/_25_Calender.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/FeatureFiles/_25_Calender.feature" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/StepDefinitions/CalenderFeature.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/StepDefinitions/CalenderFeature.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -112,13 +111,22 @@
       <option name="project" value="LOCAL" />
       <updated>1734202255082</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="US 23,24,25 completed.">
+      <option name="closed" value="true" />
+      <created>1734284368630</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1734284368630</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added necessary pages and classes" />
     <MESSAGE value="Calender feature files completed, sflj4 dependecy added." />
     <MESSAGE value="buttons added" />
-    <option name="LAST_COMMIT_MESSAGE" value="buttons added" />
+    <MESSAGE value="US 23,24,25 completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="US 23,24,25 completed." />
   </component>
 </project>
