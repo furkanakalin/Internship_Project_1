@@ -90,4 +90,37 @@ public class DialogContent extends ParentPage {
     @FindBy(xpath = "//div[@class='assignment ng-star-inserted']")
     public List<WebElement> assignmentsList;
 
+    @FindBy (xpath = "//*[@class='svg-inline--fa fa-angle-down fa-fw']")
+    public WebElement profileButton;
+
+    @FindBy (xpath = "//button[.//span[text()='Settings']]")
+    public WebElement settingsButton;
+
+    @FindBy (xpath = "//*[@class='profile-image avatar huge ng-star-inserted']")
+    public WebElement profilePicture;
+
+    @FindBy (xpath = "//*[@class='mat-mdc-form-field-infix ng-tns-c508571215-36']")
+    public WebElement loadButton;
+
+    @FindBy (xpath = "//*[@class='mat-mdc-accent mdc-button mat-mdc-button mat-mdc-raised-button mat-accent mat-mdc-button-base ng-star-inserted']")
+    public WebElement savePhotoButton;
+
+    @FindBy (xpath = "//span[text()='Default Theme']")
+    public WebElement theme;
+
+    @FindBy (xpath = "//*[@value='purple-theme']")
+    public WebElement purpleTheme;
+
+    @FindBy (xpath = "//*[@class='mat-mdc-accent mdc-button mat-mdc-button mat-mdc-raised-button mat-accent mat-mdc-button-base ng-star-inserted']")
+    public WebElement saveButtonTwo;
+
+    @FindBy (xpath = "//*[@caption='NAV.GRADING.TITLE']")
+    public WebElement gradingButton;
+
+    @FindBy (id = "mat-tab-group-0-label-1")
+    public WebElement studentTranscripts;
+
+    @FindBy (id = "mat-tab-group-0-label-2")
+    public WebElement transcriptSubject;
+
 }

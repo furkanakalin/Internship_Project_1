@@ -9,7 +9,7 @@ import java.time.Duration;
 import java.util.Locale;
 
 public class GWD {  // Genel Web Driver
-    private static WebDriver driver;
+    public static WebDriver driver;
     public static final Logger log4j= LogManager.getLogger();
 
     public static WebDriver getDriver() {
