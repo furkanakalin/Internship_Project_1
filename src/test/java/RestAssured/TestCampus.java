@@ -45,7 +45,7 @@ public class TestCampus {
                         .log().all()
                         .statusCode(200)
                         .extract().response().detailedCookies();
-        ;
+
         System.out.println("cookies = " + cookies);
 
         reqSpec = new RequestSpecBuilder()

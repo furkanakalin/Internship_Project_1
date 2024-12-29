@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="28cdaded-c06a-4f4d-9c3d-3da08c5fc4af" name="Changes" comment="US 23,24,25 completed.">
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/TestCampus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/RestAssured/US_01.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/TestCampus.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/TestCampus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/RestAssured/US_01_03_04.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/RestAssured/US_01_02_03.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,6 +29,7 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -64,15 +65,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;yasemin&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/furkan.akalin/IdeaProjects/Internship_Project_1/src/test/java&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settings.project.maven.repository.indices&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "yasemin",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/furkan.akalin/IdeaProjects/Internship_Project_1/src/test/java",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\furkan.akalin\IdeaProjects\Internship_Project_1\src\test\java" />
@@ -127,6 +128,7 @@
     <MESSAGE value="Calender feature files completed, sflj4 dependecy added." />
     <MESSAGE value="buttons added" />
     <MESSAGE value="US 23,24,25 completed." />
-    <option name="LAST_COMMIT_MESSAGE" value="US 23,24,25 completed." />
+    <MESSAGE value="Restassured dependency added, US 01-02-03 completed." />
+    <option name="LAST_COMMIT_MESSAGE" value="Restassured dependency added, US 01-02-03 completed." />
   </component>
 </project>

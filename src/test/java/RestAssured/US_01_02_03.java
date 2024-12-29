@@ -15,7 +15,7 @@ import static io.restassured.RestAssured.baseURI;
 import static io.restassured.RestAssured.given;
 import static org.hamcrest.Matchers.*;
 
-public class US_01_03_04 {
+public class US_01_02_03 {
 
     Faker randomGenerator = new Faker();
     RequestSpecification reqSpec;
@@ -77,6 +77,7 @@ public class US_01_03_04 {
         ;
     }
 
+
     @Test(dependsOnMethods = "CreateCountry")
     public void CreateCountryNegative() {
 
@@ -88,10 +89,8 @@ public class US_01_03_04 {
         given()
                 .spec(reqSpec)
                 .body(createCountry)
-
                 .when()
                 .post("school-service/api/countries")
-
                 .then()
                 .log().body()
                 .statusCode(400)
